@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap unicamente para los iconos de redes -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <!-- jQuery Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Login</title>
+  <!-- favicon -->
+  <link rel="icon" href="imagenes/" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="form">
+      <!--Botones para cambio de paginas-->
+      <div class="btn">
+        <button class="signUpBtn">SIGN UP</button>
+        <button class="loginBtn">LOG IN</button>
+      </div>
+      <!--formulario #1 para Registro-->
+      <form class="signUp" action="">
+        <div class="formGroup">
+          <input type="text" id="userName" placeholder="User Name" autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="email" placeholder="Email ID" name="email" required autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="password" id="password" placeholder="Password" required autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="password" id="confirmPassword" placeholder="Confirm Password" required autocomplete="off">
+        </div>
+        <div class="checkBox">
+          <input type="checkbox" name="checkbox" id="checkbox">
+          <span class="text">I agree with term & conditions</span>
+        </div>
+        <div class="formGroup">
+          <button type="button" class="btn2">REGISTER</button>
+        </div>
+        <!--Botones redes-->
+        <div class="social">
+          <ul class="social-network social-circle">
+            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+
+      </form>
+
+      <!--formulario #1 para acceso-->
+      <form class="login" action="">
+
+        <div class="formGroup">
+          <input type="email" placeholder="Email ID" name="email" required autocomplete="off">
+        </div>
+        <div class="formGroup">
+          <input type="password" id="password" placeholder="Password" required autocomplete="off">
+
+        </div>
+        <div class="checkBox">
+          <input type="checkbox" name="checkbox" id="checkbox">
+          <span class="text">Keep me signed in on this device</span>
+        </div>
+        <div class="formGroup">
+          <button type="button" class="btn2">REGISTER</button>
+        </div>
+        <!--Botones redes-->
+        <div class="social">
+          <ul class="social-network social-circle">
+            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+  <!--Link con documento JQuery-->
+  <script src="jQuery.js"></script>
+</body>
+
+</html>

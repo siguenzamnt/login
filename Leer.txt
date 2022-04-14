@@ -1,0 +1,20 @@
+1. Body contiene 3 div
+2. El div class "container" contiene dos form
+
+3. El div class "form" contiene el primer form, este form contiene el formulario signUp, este formulario es para
+el registro de los usuarios.
+4. El div class "btn" contiene los dos botones de la parte superior para cambiar entre formularios SIGN UP y LOG IN
+5. El form class "signUp" contiene el formulario para el registro de los usuarios, este formulario contiene 5 input,
+todos los input
+tienen el autocoplete en modo off.
+6. Se coloca un boton class "btn2" para hacer el registro del formulario "SIGN"
+7. Se incluyen los botones de registro por medio de redes sociales class "social-network social-circle"
+
+8. El form class "login" contiene el segundo formulario y este es para el usuario ya registrado, donde podra acceder al
+sistema.
+9. El form class "login" contiene 3 inputs, dos para el registro y uno para el checkbox para recordar el inicio de
+sesion.
+10. Se coloca un boton class "btn2" para hacer el registro del formulario "LOGIN"
+11. Se incluyen los botones de registro por medio de redes sociales class "social-network social-circle"
+
+12. Se incluye codigo de jQuery para el cambio de paginas desde los botones del punto #4 de este documento.
